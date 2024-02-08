@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dbdbdb;
+}
+
+header {
+  background-color: #9d9d9d;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-between;
+  padding: 24px 64px;
+}
+
+header a {
+  color: #000;
+  font-weight: 600;
+  padding: 0 24px 0 0;
+  text-decoration: none;
+}
+
+header img {
+  margin-left: 5%;
+}
+
+img {
+  border-radius: 24px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.paragraph {
+  line-height: 150%;
+  max-width: 75%;
+  margin-bottom: 32px;
+}
+
+.button {
+  background-color: #319ed1;
+  color: #000;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 18px 48px;
+  text-decoration: none;
+}
+
+#lifestyle,
+#car {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 32px 48px 128px 48px;
+  position: relative;
+}
+
+#stylefashion {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 32px 48px 128px 48px;
+  position: relative;
+}
+
+#house {
+  display: block;
+  text-align: center;
+}
+
+#house img {
+  margin: 64px auto;
+}
+
+#house .paragraph {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+#faq {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 32px;
+}
+
+.faq-tag h3 {
+  border: 2px solid #9d9d9d;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 24px;
+  margin: 0;
+}
+
+.faq-tag .paragraph {
+  border-right: 1px solid #9d9d9d;
+  border-bottom: 1px solid #9d9d9d;
+  border-left: 1px solid #9d9d9d;
+  border-radius: 0 0 8px 8px;
+  margin-top: -6px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  padding: 0 24px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.faq-tag.active .paragraph {
+  height: fit-content;
+  opacity: 1;
+  padding: 24px;
+}
+
+footer {
+  background-color: #9d9d9d84;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  margin: 0;
+  padding: 32px 64px;
+}
+
+.logo-slogan {
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+footer strong {
+  display: block;
+  padding: 0 0 12px 0;
+}
+
+.fast-navigation nav a,
+.find-us p {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  padding: 0 0 12px 0;
+}
+
+.find-us p a {
+  color: #000;
+}
+
+#copyright {
+  background-color: #9d9d9d;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding: 32px 64px;
+}
+
+#copyright a {
+  color: #000;
+  font-weight: normal;
+}
